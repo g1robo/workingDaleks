@@ -1,0 +1,125 @@
+<Options Product="VScodePrint" Version="14.0.25" Description="Visual Studio Addin for Professional Style Source Code Printing" Notes="Editing this file may cause VScodePrint to malfunction">
+  <AlternativeLineColor UseAlternativeLineColors="1" AlphaBlend="40" Color="Gainsboro" />
+  <Bitmaps Directory="" Alignment="1" Output="0" />
+  <ConnectingLines Output="0" PrintConnections="1" Label="1">
+    <Line Color="BlueViolet" Thickness="1" />
+  </ConnectingLines>
+  <Coversheet Output="0" Filename="" BlankPageAfter="0" />
+  <Culture Name="en-US" />
+  <Dividers>
+    <ClassModules Kind="2">
+      <Line Thickness="1" Color="255,0,192,192" />
+    </ClassModules>
+    <Namespaces Kind="1">
+      <Line Thickness="1" Color="255,0,0,192" />
+    </Namespaces>
+    <Procedures Kind="2">
+      <Line Thickness="1" Color="255,255,0,0" />
+    </Procedures>
+    <Properties Kind="1">
+      <Line Thickness="1" Color="255,255,0,0" />
+    </Properties>
+    <Methods Kind="1">
+      <Line Color="LightSeaGreen" Thickness="1" />
+    </Methods>
+  </Dividers>
+  <ExcludeFiles Paths="*\Properties\*.*&#xD;&#xA;'*\My Project\*.*&#xD;&#xA;*.resx&#xD;&#xA;'*.xml&#xD;&#xA;*\Temporary ASP.NET Files\*&#xD;&#xA;*\References\*.*&#xD;&#xA;*\Service References\*.*" />
+  <Fonts ColorUsing="2" ColorMode="1">
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="1" Name="Plain_Text                                   " DisplayName="Plain Text                                  " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="Black" Background="White" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="4" Name="Collapsible_Text                             " DisplayName="Collapsible Text                            " FontName="Courier New" FontSize="8" Bold="0" Italic="0" Underline="0" Foreground="8421504" Background="Transparent" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="5" Name="Comment                                      " DisplayName="Comment                                     " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="32768" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="6" Name="CSS_Comment                                  " DisplayName="CSS Comment                                 " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="25600" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="7" Name="CSS_Keyword                                  " DisplayName="CSS Keyword                                 " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="16711680" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="8" Name="CSS_Property_Name                            " DisplayName="CSS Property Name                           " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="255" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="9" Name="CSS_Property_Value                           " DisplayName="CSS Property Value                          " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="16711680" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="10" Name="CSS_Selector                                " DisplayName="CSS Selector                                " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="128" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="11" Name="CSS_String_Value                            " DisplayName="CSS String Value                            " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="16711680" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="12" Name="Excluded_Code                               " DisplayName="Excluded_Code                               " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="8421504" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="13" Name="HTML_Attribute                              " DisplayName="HTML Attribute                              " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="255" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="14" Name="HTML_Attribute_Value                        " DisplayName="HTML Attribute Value                        " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="16711680" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="15" Name="HTML_Comment                                " DisplayName="HTML Comment                                " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="25600" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="16" Name="HTML_Element_Name                           " DisplayName="HTML Element_Name                           " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="128" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="17" Name="HTML_Entity                                 " DisplayName="HTML Entity                                 " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="255" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="18" Name="HTML_Operator                               " DisplayName="HTML Operator                               " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="16711680" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="19" Name="HTML_Server_Side_Script                     " DisplayName="HTML Server Side Script                     " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="0" Background="65535" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="20" Name="HTML_Tag_Delimiter                          " DisplayName="HTML Tag Delimiter                          " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="16711680" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="22" Name="Identifier                                  " DisplayName="Identifier                                  " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="0" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="23" Name="Keyword                                     " DisplayName="Keyword                                     " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="16711680" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="24" Name="Number                                      " DisplayName="Number                                      " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="0" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="25" Name="Operator                                    " DisplayName="Operator                                    " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="0" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="26" Name="Preprocessor_Keyword                        " DisplayName="Preprocessor_Keyword                        " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="16711680" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="27" Name="Read_Only_Region                            " DisplayName="Read Only Region                            " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="0" Background="15134702" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="28" Name="String                                      " DisplayName="String                                      " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="1381795" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="29" Name="Text                                        " DisplayName="Text                                        " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="0" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="30" Name="User Keyword                                " DisplayName="User Keyword                                " FontName="Courier New" FontSize="8" Bold="0" Italic="0" Underline="0" Foreground="Black" Background="Transparent" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="31" Name="XML_Attribute                               " DisplayName="XML Attribute                               " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="255" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="32" Name="XML_Attribute_Quotes                        " DisplayName="XML Attribute Quotes                        " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="0" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="33" Name="XML_Attribute_Value                         " DisplayName="XML Attribute Value                         " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="16711680" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="34" Name="XML_CData_Section                           " DisplayName="XML CData Section                           " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="8421504" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="35" Name="XML_Comment                                 " DisplayName="XML Comment                                 " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="32768" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="36" Name="XML_Delimiter                               " DisplayName="XML Delimiter                               " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="16711680" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="37" Name="XML_Doc_Attribute                           " DisplayName="XML Doc Attribute                           " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="8421504" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="38" Name="XML_Doc_Comment                             " DisplayName="XML_Doc Comment                             " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="32768" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="39" Name="XML_Doc_Tag                                 " DisplayName="XML Doc Tag                                 " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="8421504" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="40" Name="XML_Keyword                                 " DisplayName="XML Keyword                                 " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="16711680" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="41" Name="XML_Name                                    " DisplayName="XML Name                                    " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="1381795" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="42" Name="XML_Processing_Instruction                  " DisplayName="XML Processing Instruction                  " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="8421504" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="43" Name="XML_Text                                    " DisplayName="XML Text                                    " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="0" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="44" Name="XAML_Attribute                              " DisplayName="XAML Attribute                              " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="255" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="45" Name="XAML_Attribute_Quotes                       " DisplayName="XAML Attribute Quotes                       " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="0" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="46" Name="XAML_Attribute_Value                        " DisplayName="XAML Attribute Value                        " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="16711680" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="47" Name="XAML_CData_Section                          " DisplayName="XAML CData Section                          " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="8421504" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="48" Name="XAML_Comment                                " DisplayName="XAML Comment                                " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="32768" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="49" Name="XAML_Delimiter                              " DisplayName="XAML Delimiter                              " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="16711680" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="50" Name="XAML_Keyword                                " DisplayName="XAML Keyword                                " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="16711680" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="51" Name="XAML_Markup_Extension_Class                 " DisplayName="XAML Markup Extension Class                 " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="1381795" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="52" Name="XAML_Markup_Extension_Parameter_Name        " DisplayName="XAML Markup Extension Parameter Name        " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="255" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="53" Name="XAML_Markup_Extension_Parameter_Value       " DisplayName="XAML Markup Extension Parameter Value       " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="16711680" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="54" Name="XAML_Name                                   " DisplayName="XAML Name                                   " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="1381795" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="55" Name="XAML_Processing_Instruction                 " DisplayName="XAML Processing Instruction                 " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="8421504" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="56" Name="XAML_Text                                   " DisplayName="XAML Text                                   " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="0" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="57" Name="Outlines                                    " DisplayName="Outlines                                    " FontName="Courier New" FontSize="8" Bold="0" Italic="0" Underline="0" Foreground="DarkGray" Background="Transparent" />
+    <Font AllowColorMaintenance="1" isCodeFont="0" Id="58" Name="Page_Header                                 " DisplayName="Page Header                                 " FontName="Arial" FontSize="8" Bold="0" Italic="0" Underline="0" Foreground="Red" Background="Transparent" />
+    <Font AllowColorMaintenance="1" isCodeFont="0" Id="59" Name="Project_Information                         " DisplayName="Project Information                         " FontName="Arial" FontSize="8" Bold="0" Italic="0" Underline="0" Foreground="MidnightBlue" Background="Transparent" />
+    <Font AllowColorMaintenance="1" isCodeFont="0" Id="60" Name="Table_of_Contents                           " DisplayName="Table of Contents                           " FontName="Arial" FontSize="8" Bold="0" Italic="0" Underline="0" Foreground="MidnightBlue" Background="Transparent" />
+    <Font AllowColorMaintenance="0" isCodeFont="0" Id="61" Name="Source_Code                                 " DisplayName="Source Code                                 " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="black" Background="Transparent" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="62" Name="User_Types                                  " DisplayName="User Types                                  " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" CharacterSet="0" Foreground="11505963" Background="16777215" />
+    <Font AllowColorMaintenance="0" isCodeFont="1" Id="63" Name="User_Types_Delegates                        " DisplayName="User Types Delegates                        " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" CharacterSet="0" Foreground="32896" Background="16777215" />
+    <Font AllowColorMaintenance="0" isCodeFont="1" Id="64" Name="User_Types_Enums                            " DisplayName="User Types Enums                            " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" CharacterSet="0" Foreground="11505963" Background="65535" />
+    <Font AllowColorMaintenance="0" isCodeFont="1" Id="65" Name="User_Types_Interfaces                       " DisplayName="User Types Interfaces                       " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" CharacterSet="0" Foreground="65280" Background="16777215" />
+    <Font AllowColorMaintenance="0" isCodeFont="1" Id="66" Name="User_Types_Type_parameters                  " DisplayName="User Types Type parameters                  " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" CharacterSet="0" Foreground="16711935" Background="16777215" />
+    <Font AllowColorMaintenance="0" isCodeFont="1" Id="67" Name="User_Types_Value_types                      " DisplayName="User Types Value types                      " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" CharacterSet="0" Foreground="128" Background="16777215" />
+    <Font AllowColorMaintenance="0" isCodeFont="1" Id="68" Name="Line_Numbers                                " DisplayName="Line Numbers                                " FontName="Courier New" FontSize="8" Bold="0" Italic="0" Underline="0" Foreground="Teal" Background="Transparent" />
+    <Font AllowColorMaintenance="0" isCodeFont="1" Id="69" Name="Visible_White_Space                         " DisplayName="Visible White_Space                         " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="White" Background="Transparent" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="2" Name="Line_Number                                  " DisplayName="Line Number                                 " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="11505963" Background="16777215" />
+    <Font AllowColorMaintenance="1" isCodeFont="1" Id="3" Name="Visible_WhiteSpace                           " DisplayName="Visible WhiteSpace                          " FontName="Consolas" FontSize="10" Bold="0" Italic="0" Underline="0" Foreground="White" Background="Transparent" />
+    <Font AllowColorMaintenance="1" isCodeFont="0" Id="70" Name="Index                                       " DisplayName="Index                                       " FontName="Trebuchet MS" FontSize="8" Bold="0" Italic="0" Underline="0" Foreground="MidnightBlue" Background="Transparent" />
+  </Fonts>
+  <Formatting FormatSourceCode="1" IndentSize="2" FormatCheckedInFile="0" FormatReadOnlyFile="1" FileTypesToFormat="*.master;*.ascx;*.asmx;*.asp;*.aspx;*.c;*.config;*.cpp;*.cs;*.css;*.h;*.htm;*.html;*.js;*.vb;*.xml;*.zaml" />
+  <General ProduceTOC="1" OutputGeneratedCode="0" OutputCodeInClosedOutlines="0" OutputComments="1" KeepProcedureLinesTogether="0" PrintWhat="7" SupressClipboardWarning="0" SupportedFileTypes=".ADDIN;.ASAX;.ASCX;.ASHX;.ASP;.ASPX;.C;.CC;.CLS;.CONFIG;.CPP;.CS;.CSHTM;.CSHTML;.CSS;.H;.HH;.HPP;.HTM;.HTML;.HXX;.INC;.INL;.JS;.MYAPP;.TXT;.VB;.VBHTM;.VBHTML;.VBSCR;.SVC;.XAML;.XAMLX;.XHTML;.XML;.XSD;.XSL;.XSLT;.XSS" FileCodeModelFileTypes=".C;.CLS;.CPP;.CS;.H;.VB" />
+  <HeaderFooter>
+    <Header>
+      <Left ID="msg_header_footer_solution_name" Text="{Solution Name}" DefaultID="msg_header_footer_solution_name" />
+      <Center ID="msg_header_footer_blank" Text="{Blank}" DefaultID="msg_header_footer_blank" />
+      <Right ID="msg_header_footer_project_name" Text="{Project Name}" DefaultID="msg_header_footer_project_name" />
+    </Header>
+    <Footer>
+      <Left ID="msg_header_footer_projectitem_name" Text="{ProjectItem Name}" DefaultID="msg_header_footer_projectitem_name" />
+      <Center ID="msg_header_footer_page_number" Text="{Page Number}" DefaultID="msg_header_footer_page_number" />
+      <Right ID="msg_header_footer_date" Text="{Date}" DefaultID="msg_header_footer_date" />
+    </Footer>
+  </HeaderFooter>
+  <Index Output="1" IndexPosition="2" />
+  <LineNumbers Output="1" Reset="1" ResetOn="4" LineStep="1" />
+  <PageLayout Orientation="0" PaperSize="9" LineSpacing="100">
+    <Margins MeasuringSystem="cm" Top="1" Bottom="1" Left="1" Right="1" />
+    <BookletPrinting BookletPrinting="0" StartTOCOnOddPage="0" StartProjectItemOnOddPage="0" StartIndexOnOddPage="0" />
+  </PageLayout>
+  <Preview WindowCoordinates="82,5,966,1843" ZoomFactor="1" ZoomMode="0" PreviewLanguage="0" />
+  <Printer Device="\\PS1\JB128-KM" />
+  <Registration UserName="John Velis" RegistrationCode="2332-4129-7000-0FFC-36FB" UpgradeRegistrationCode="" />
+  <LanguageSupport WorkingLocale="" Trace="0" ShowGriod="0" />
+  <TOC Output="0" IncludeProperties="1" IncludeMethods="1" SortMethodsAndProperties="0" />
+  <Watermark Output="0" Filename="" />
+  <Format FormatSourceCode="1" IndentSize="2" FormatReadOnlyFile="1" FormatCheckedInFile="0" FileTypesToFormat=".ADDIN&#xD;&#xA;.ASAX&#xD;&#xA;.ASCX&#xD;&#xA;.ASHX&#xD;&#xA;.ASP&#xD;&#xA;.ASPX&#xD;&#xA;.C&#xD;&#xA;.CC&#xD;&#xA;.CLS&#xD;&#xA;.CONFIG&#xD;&#xA;.CPP&#xD;&#xA;.CS&#xD;&#xA;.CSHTM&#xD;&#xA;.CSHTML&#xD;&#xA;.CSS&#xD;&#xA;.H&#xD;&#xA;.HH&#xD;&#xA;.HPP&#xD;&#xA;.HTM&#xD;&#xA;.HTML&#xD;&#xA;.HXX&#xD;&#xA;.INC&#xD;&#xA;.INL&#xD;&#xA;.JS&#xD;&#xA;.MYAPP&#xD;&#xA;.TXT&#xD;&#xA;.VB&#xD;&#xA;.VBHTM&#xD;&#xA;.VBHTML&#xD;&#xA;.VBSCR&#xD;&#xA;.SVC&#xD;&#xA;.XAML&#xD;&#xA;.XAMLX&#xD;&#xA;.XHTML&#xD;&#xA;.XML&#xD;&#xA;.XSD&#xD;&#xA;.XSL&#xD;&#xA;.XSLT&#xD;&#xA;.XSS" />
+</Options>

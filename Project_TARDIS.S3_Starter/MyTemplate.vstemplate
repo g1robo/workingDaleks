@@ -1,0 +1,57 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Project_TARDIS.S3_Starter</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Project_TARDIS.S3_Starter</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Project_TARDIS.S3_Starter.csproj" File="Project_TARDIS.S3_Starter.csproj" ReplaceParameters="true">
+      <Folder Name="_Documentation" TargetFolderName="_Documentation">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ClassDiagram1 - Copy.cd">ClassDiagram1 - Copy.cd</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Project_TARDIS.S2 Controller (collapsed).pdf">Project_TARDIS.S2 Controller (collapsed).pdf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Project_TARDIS.S2 Controller (expanded).pdf">Project_TARDIS.S2 Controller (expanded).pdf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Project_TARDIS.S2 Universe (collapsed).pdf">Project_TARDIS.S2 Universe (collapsed).pdf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Project_TARDIS.S2 Universe (expanded).pdf">Project_TARDIS.S2 Universe (expanded).pdf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Project_TARDIS.S2 View (collapsed).pdf">Project_TARDIS.S2 View (collapsed).pdf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Project_TARDIS.S2 View (expanded).pdf">Project_TARDIS.S2 View (expanded).pdf</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Universe_Controller_View Diagram.cd">Universe_Controller_View Diagram.cd</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="VScodePrint.xml">VScodePrint.xml</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <Folder Name="Controllers" TargetFolderName="Controllers">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Controller.cs">Controller.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Models" TargetFolderName="Models">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Character.cs">Character.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="GallifrianMirror.cs">GallifrianMirror.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="GameObject.cs">GameObject.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Item.cs">Item.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SpaceTimeLocation.cs">SpaceTimeLocation.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Traveler.cs">Traveler.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="TravelerAction.cs">TravelerAction.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Treasure.cs">Treasure.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Universe.cs">Universe.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Utilities" TargetFolderName="Utilities">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ConsoleUtil.cs">ConsoleUtil.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ConsoleViewHelpers.cs">ConsoleViewHelpers.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Views" TargetFolderName="Views">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ConsoleView.cs">ConsoleView.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

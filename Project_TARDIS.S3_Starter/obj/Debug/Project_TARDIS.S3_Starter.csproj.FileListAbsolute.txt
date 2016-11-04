@@ -1,0 +1,7 @@
+C:\Users\robins4\Downloads\Project_TARDIS.S3_Starter\bin\Debug\$safeprojectname$.exe.config
+C:\Users\Jennifer\Documents\Visual Studio 2015\Projects\workingnpc-master\Project_TARDIS.S3_Starter\bin\Debug\$safeprojectname$.exe.config
+C:\Users\Jennifer\Documents\Visual Studio 2015\Projects\workingnpc-master\Project_TARDIS.S3_Starter\bin\Debug\$safeprojectname$.exe
+C:\Users\Jennifer\Documents\Visual Studio 2015\Projects\workingnpc-master\Project_TARDIS.S3_Starter\bin\Debug\$safeprojectname$.pdb
+C:\Users\Jennifer\Documents\Visual Studio 2015\Projects\workingnpc-master\Project_TARDIS.S3_Starter\obj\Debug\Project_TARDIS.S3_Starter.csprojResolveAssemblyReference.cache
+C:\Users\Jennifer\Documents\Visual Studio 2015\Projects\workingnpc-master\Project_TARDIS.S3_Starter\obj\Debug\$safeprojectname$.exe
+C:\Users\Jennifer\Documents\Visual Studio 2015\Projects\workingnpc-master\Project_TARDIS.S3_Starter\obj\Debug\$safeprojectname$.pdb

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Project_TARDIS.Controller">
+    <Position X="15.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAEEAAAACAAAAAAAAAAAAIAAAEABAA=</HashCode>
+      <FileName>Controllers\Controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_TARDIS.Character">
+    <Position X="0.5" Y="9.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Project_TARDIS.Character.RaceType">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\Character.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QAAAIAAAAAAAAAAAAAAAAAQAAAAAACAABCAAAAAAAAA=</HashCode>
+      <FileName>Models\Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_TARDIS.GallifrianMirror">
+    <Position X="5" Y="4" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAIAgQAAAIAAAAAQABAAACAEABAAgAAAAAAA=</HashCode>
+      <FileName>Models\GallifrianMirror.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_TARDIS.GameObject">
+    <Position X="2.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAgAAAAIAAAAAQABAAAAAAABAAgAABAAAA=</HashCode>
+      <FileName>Models\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_TARDIS.Item">
+    <Position X="0.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAgAAAAIAAAAAQABAAAAAAABAAgAAAAAAA=</HashCode>
+      <FileName>Models\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_TARDIS.SpaceTimeLocation">
+    <Position X="8" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAgAAAEAAAAAAQAAAECACAABAAAAAAAAAA=</HashCode>
+      <FileName>Models\SpaceTimeLocation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_TARDIS.Traveler">
+    <Position X="2.75" Y="9.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAgAAAAAAAAAAAgAAAAAAAgAA=</HashCode>
+      <FileName>Models\Traveler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_TARDIS.Treasure">
+    <Position X="2.75" Y="4" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Project_TARDIS.Treasure.Type">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\Treasure.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAgAAAAIAAAAAQABQAAAAAABAAgAAAAAAA=</HashCode>
+      <FileName>Models\Treasure.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_TARDIS.Universe">
+    <Position X="18.25" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>gQAAAAAiAABACAAQBhAAAAAAAAAAEABIAAAQAAAAAAA=</HashCode>
+      <FileName>Models\Universe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_TARDIS.Program" Collapsed="true">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_TARDIS.ConsoleUtil" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAChggACAAACABAAAECAIAAABEAkCAEoAACCAAgoC0A=</HashCode>
+      <FileName>Utilities\ConsoleUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_TARDIS.ConsoleView">
+    <Position X="12.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAgBAAEAACRACEAAEAEQACACAoAAAAEAAIIAAAAAAUA=</HashCode>
+      <FileName>Views\ConsoleView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Project_TARDIS.TravelerAction">
+    <Position X="4.75" Y="9.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAgABAAAAwwAAAACAAAAAACAIAAAAAEAAAA=</HashCode>
+      <FileName>Models\TravelerAction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

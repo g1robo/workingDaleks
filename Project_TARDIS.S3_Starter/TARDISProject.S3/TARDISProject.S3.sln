@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project_TARDIS.S3_Starter", "..\Project_TARDIS.S3_Starter.csproj", "{D01DF591-FBFA-4594-8DFA-5CE9F557F18F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D01DF591-FBFA-4594-8DFA-5CE9F557F18F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D01DF591-FBFA-4594-8DFA-5CE9F557F18F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D01DF591-FBFA-4594-8DFA-5CE9F557F18F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D01DF591-FBFA-4594-8DFA-5CE9F557F18F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
